@@ -1,9 +1,13 @@
-import profile from "./profile.jpg";
+import { Col, Row } from "react-bootstrap";
+
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="container">
+      <Row>
+        <Col>Lalit Purbia</Col>
+        <Col>Hello Buddy It's Lalit Purbia this side.</Col>
+      </Row>
     </div>
   );
 }
